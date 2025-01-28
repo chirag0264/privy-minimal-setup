@@ -1,5 +1,6 @@
 import { PrivyProvider, usePrivy, useWallets } from "@privy-io/react-auth";
 import { useState, useEffect } from "react";
+import { BigNumber } from "@app/core";
 
 // Wrapper component for Privy Provider
 function MainContent() {
