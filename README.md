@@ -8,6 +8,12 @@ This project uses a Turborepo setup with NPM.
 
 ### Commands
 
+- **Clone this repository:**:  
+   ```bash
+   [git clone https://github.com/<your-username>/<repo-name>.git](https://github.com/chirag0264/privy-minimal-setup)
+   cd <repo-name>
+   ```
+
 - **Install dependencies**:  
   Navigate to the `apps/web` directory:  
   ```bash
@@ -29,24 +35,6 @@ This project uses a Turborepo setup with NPM.
   ```bash
   yarn start
   ```
-
-## Steps to Reproduce
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
-   cd <repo-name>
-   ```
-
-2. Install dependencies:
-   ```bash
-   cd apps/web
-   yarn install
-   ```
-
-3. Deploy to Vercel:
-   - Follow [Vercel's guide](https://vercel.com/docs) to deploy the project.
-   - Observe the issue with the Privy SDK.
 
 ## Issue Description
 
