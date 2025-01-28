@@ -10,7 +10,7 @@ This project uses a Turborepo setup with NPM.
 
 - **Clone this repository:**:  
    ```bash
-   [git clone https://github.com/chirag0264/privy-minimal-setup](https://github.com/chirag0264/privy-minimal-setup)
+   git clone https://github.com/chirag0264/privy-minimal-setup
    cd privy_minimal_app
    ```
 
