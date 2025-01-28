@@ -1,0 +1,26 @@
+{
+  "name": "@app/core",
+  "version": "0.0.0",
+  "main": "./src/index.ts",
+  "license": "MIT",
+  "sideEffects": false,
+  "dependencies": {
+    "@ethersproject/bignumber": "^5.5.0",
+    "@ethersproject/bytes": "^5.5.0",
+    "@ethersproject/contracts": "^5.5.0",
+    "@ethersproject/hash": "^5.5.0",
+    "@ethersproject/keccak256": "^5.5.0",
+    "@ethersproject/providers": "^5.5.3",
+    "@ethersproject/signing-key": "^5.5.0",
+    "@ethersproject/units": "^5.5.0"
+  },
+  "devDependencies": {
+    "@app/dev-config": "*",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "type-check": "tsc -p tsconfig.json --noEmit",
+    "test": "jest --passWithNoTests",
+    "lint": "eslint ./src --ext=.ts,.tsx"
+  }
+}
