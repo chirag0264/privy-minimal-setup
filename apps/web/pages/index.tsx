@@ -1,4 +1,4 @@
-import { PrivyProvider, usePrivy, useWallets } from "@privy-io/react-auth";
+import { usePrivy, useWallets } from "@privy-io/react-auth";
 import { useState, useEffect } from "react";
 import { BigNumber } from "@app/core";
 
@@ -121,17 +121,5 @@ function MainContent() {
 
 // Main page component with error boundary
 export default function Home() {
-  return (
-    <PrivyProvider
-      appId="cm6gbn8ch040ojivsuri5q2os" // Demo_ID
-      config={{
-        loginMethods: ["email", "wallet"],
-        appearance: {
-          theme: "light",
-        },
-      }}
-    >
-      <MainContent />
-    </PrivyProvider>
-  );
+  return <MainContent />;
 }
