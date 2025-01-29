@@ -61,7 +61,7 @@ function MainContent() {
     });
   }, [authenticated, privyUser, wallets, privyWallet]);
 
-  if (!ready) return <div>Loading Privy...</div>;
+  // if (!ready) return <div>Loading Privy...</div>;
   if (ready && !authenticated) {
     return (
       <div style={{ padding: "20px" }}>
